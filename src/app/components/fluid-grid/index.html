@@ -39,27 +39,31 @@
   <sky-demo-page-properties sectionHeading="Column properties">
     <sky-demo-page-property
       propertyName="screenXSmall"
+      defaultValue="12"
       isOptional="true"
     >
-      Specifies the number of columns (1-12) to use on extra-small screens (less than 768px). If you do not specify a value, the fluid grid displays the column at the full width of the screen. This property accepts <sky-code>number</sky-code> values.
+      Specifies the number of columns (1-12) to use on extra-small screens (less than 768px). This property accepts <sky-code>number</sky-code> values.
     </sky-demo-page-property>
     <sky-demo-page-property
       propertyName="screenSmall"
+      defaultValue="screenXSmall"
       isOptional="true"
     >
-      Specifies the number of columns (1-12) to use on small screens (768-991px). If you do not specify a value, the column inherits the <sky-code>screenXSmall</sky-code> value. This property accepts <sky-code>number</sky-code> values.
+      Specifies the number of columns (1-12) to use on small screens (768-991px). This property accepts <sky-code>number</sky-code> values.
     </sky-demo-page-property>
     <sky-demo-page-property
       propertyName="screenMedium"
+      defaultValue="screenSmall"
       isOptional="true"
     >
-      Specifies the number of columns (1-12) to use on medium screens (992-1199px). If you do not specify a value, the column inherits the <sky-code>screenSmall</sky-code> value. This property accepts <sky-code>number</sky-code> values.
+      Specifies the number of columns (1-12) to use on medium screens (992-1199px). This property accepts <sky-code>number</sky-code> values.
     </sky-demo-page-property>
     <sky-demo-page-property
       propertyName="screenLarge"
+      defaultValue="screenMedium"
       isOptional="true"
     >
-      Specifies the number of columns (1-12) to use on large screens (more than 1200px). If you do not specify a value, the column inherits the <sky-code>screenMedium</sky-code> value. This property accepts <sky-code>number</sky-code> values.
+      Specifies the number of columns (1-12) to use on large screens (more than 1200px). This property accepts <sky-code>number</sky-code> values.
     </sky-demo-page-property>
   </sky-demo-page-properties>
 
